@@ -1,0 +1,53 @@
+.border-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.headingz{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.headingx{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.my-login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    border-radius: 12px;
+}
+.my-login label{
+    font-size: 16px;
+    align-self: flex-start;
+    margin-bottom: 100px;
+}
+.my-login input{
+    font-family: "Itim", cursive;
+    display: block;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.button-login{
+font-family: "Itim", cursive;
+font-size: 26px;
+background-color:D9614C;
+color: white;
+margin-top: 0px;
+border-radius: 12px;
+border: none;
+height:60px;
+width: 300px;
+cursor: pointer;
+}

@@ -2,29 +2,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
     <title>Note Taking App</title>
 </head>
 <body>
-    <div class="form-block">
-    <p class="heading">NoteLy</p>
-        <p class="title1">Create a free account</p>
-        <p class="subtitle1">Join Notely for free. Create and share <br>
-        unlimited notes with your friends.</p>
-    <form action="/submit" method="POST">
-        <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <div class="border-login">
+    <div class="my-login">
+        <p class="headingz">Login</p>
+        <form action="/submit" method="POST">
         <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Enter your Gmail" required>
         <label   label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter your password" required>
     </form>
-    <button class="button1" onclick="goToNextPage('index3.html')">Create account</button>
-    <button class="button2" onclick="goToNextPage('login.html')">Back to sign in</button>    
-    </div>
+        <button class="button-login" onclick="goToNextPage('index3.html')">Login</button>
+        <p class="headingx" onclick="goToNextPage('forgot-password.html')">Forgot Password?</p>
+        </div>
+
+            </div>
     <script src="index.js"></script>
 </body>
 </html>
