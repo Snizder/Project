@@ -32,6 +32,12 @@ flex-direction: column;
 align-items: center;
 text-align:center;
 }
+.profile-body{
+        display: flex;
+flex-direction: column;
+align-items: center;
+
+}
 .form-block{
     display: flex;
 flex-direction: column;
@@ -375,4 +381,52 @@ font-size: 18px;
     align-items: center;
     justify-content: space-between;
     width: 320px;
+}
+.profile-body label{
+    font-size: 13px;
+    align-self: flex-start;
+    margin-top: 0px;
+}
+.profile-body input{
+    font-family: "Itim", cursive;
+    display: block;
+    font-size: 18px;
+    width: 300px; /* ปรับตามต้องการ */
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px; /* เว้นระยะห่าง */
+}
+.picture4 {
+    margin-bottom: 60px;
+}
+.button5{
+    font-family: "Itim", cursive;
+    font-size: 26px;
+    background-color:D9614C;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    height:60px;
+    width: 300px;
+    cursor: pointer;
+}
+.super-headz{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+}
+.headingz{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+.button-angle-leftz{
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
