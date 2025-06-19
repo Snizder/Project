@@ -430,3 +430,10 @@ font-size: 18px;
     border: none;
     cursor: pointer;
 }
+.form-button-group{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 12px;
+}
