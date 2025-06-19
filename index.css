@@ -8,6 +8,30 @@ flex-direction: column;
 align-items: center;
 text-align:center;
 }
+.content-form{
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align:center;
+}
+.three-block{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align:center;
+}
+.four-block{
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align:center;
+}
+.content_buddy{
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align:center;
+}
 .form-block{
     display: flex;
 flex-direction: column;
@@ -55,6 +79,9 @@ height: 150px;
     max-width: 100%;
     height: auto;
 }
+.picture2{
+    margin-top: 100px;
+}
 .heading{
 font-size: 26px;
 font-weight: bold;
@@ -67,6 +94,30 @@ font-weight: bold;
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+.heading3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.heading4{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.heading5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.heading6{
+    font-size: 16px;
+    font-weight: bold;
+}
+.heading7{
+    justify-self: flex-start;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 .title{
 font-size: 26px;
@@ -91,6 +142,14 @@ font-weight: 300;
 margin-top: 0;      /* ลบระยะห่างบน */
 margin-bottom: 50;
 line-height: 1.4;
+}
+.title2{
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.picture3 h3{
+    font-weight: 300;
 }
 .dot {
 display: inline-block;
@@ -212,5 +271,109 @@ cursor: pointer;
     border: none;
     cursor: pointer;
 }
+.block-head1{
+    display: flex;
+    flex-direction: row;
+}
+.block-head3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.button-bars{
+    order:-1 ;
+    left: 10px;
+    top: 22px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.button-search{
+    top: 22px;
+    right: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    order: 2;
+}
+.button-ellipsis{
+    order: 1;
+    top: 22px;
+    right: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.button-angle-left{
+    order: -1;
+    left: 10px;
+    top: 22px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.masonry {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;                             
+    padding: 1rem;
+    margin-top: 0px;
+}
+.card{
+    background: #fefbf8;
+    padding: 3rem;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.feture {
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 20px;
+width: 330px;
+}
 
+.menu-item {
+display: flex;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+}
 
+.icon-text {
+display: flex;
+align-items: center;
+gap: 16px;
+}
+
+.icon-text img {
+width: 24px;
+height: 24px;
+}
+
+.icon-text p {
+margin: 0;
+font-size: 16px;
+
+}
+
+.button-angle-right {
+background: none;
+border: none;
+cursor: pointer;
+font-size: 18px;
+}
+.super-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+}
